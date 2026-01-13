@@ -1,0 +1,2 @@
+# Secure-AWS-VPC-Architecture-with-Public-Private-Subnets
+ Designed and implemented a secure AWS VPC with custom CIDR, public and private subnets, route tables, Internet and NAT gateways. Deployed EC2 instances with IAM roles, security groups, NACLs, and SSH key-based access. Validated inter-subnet connectivity, routing, and access control to demonstrate scalable and secure cloud networking best practices
