@@ -1,0 +1,11 @@
+aws_region     = "us-east-1"
+environment    = "dev"
+project_name   = "secure-vpc-day7"
+vpc_cidr       = "10.0.0.0/16"
+
+# Restrict SSH to your public IP for production-like security:
+# allowed_ssh_cidr = "203.0.113.10/32"
+allowed_ssh_cidr = "0.0.0.0/0"
+
+instance_type        = "t3.micro"
+enable_nat_gateway   = true
